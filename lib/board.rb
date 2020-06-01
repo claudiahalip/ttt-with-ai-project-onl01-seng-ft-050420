@@ -1,13 +1,27 @@
 class Board
   
   def initialize 
-    board = []
+    @board = Array.new(9, " ")
   end 
   
-  def celles 
+  def cells 
   end 
   
   def reset!
   end 
+  
+  def display 
+    
+  end 
+  
+  def position(input)
+  end 
+  
+  def full?
+    
+  end 
+  
+  def turn_count 
+  end
   
 end 
