@@ -30,4 +30,7 @@ class Board
   def valid_move?
   end
   
+  def update
+  end 
+  
 end 
