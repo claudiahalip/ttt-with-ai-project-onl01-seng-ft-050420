@@ -24,4 +24,10 @@ class Board
   def turn_count 
   end
   
+  def taken?
+  end 
+  
+  def valid_move?
+  end
+  
 end 
